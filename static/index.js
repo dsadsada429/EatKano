@@ -342,7 +342,7 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
+    if (score <= 99) return '小红帽很生气';
     if (score <= 149) return 'TQL';
     if (score <= 199) return '您';
     return '人？';
